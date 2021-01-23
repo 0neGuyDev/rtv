@@ -687,7 +687,7 @@ class Terminal(object):
             text (str): The text that the user entered into the editor.
         """
 
-        with NamedTemporaryFile(prefix='rtv_', suffix='.txt', delete=False) as fp:
+        with NamedTemporaryFile(prefix='rtv_', suffix='.md', delete=False) as fp:
             # Create a tempory file and grab the name, but close immediately so
             # we can re-open using the right encoding
             filepath = fp.name

@@ -658,10 +658,10 @@ class Page(object):
             return
 
         self._row = 0
-        self._draw_header()
-        self._draw_banner()
+        #self._draw_header()
+        #self._draw_banner()
         self._draw_content()
-        self._draw_footer()
+        #self._draw_footer()
         self.term.clear_screen()
         self.term.stdscr.refresh()
 
