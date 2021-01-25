@@ -4,6 +4,13 @@ This is a doc just to list out what I want to achieve with this fork, or at leas
 
  - [ ] Cleaner UI
    - [x] Remove header, banner, footer
+   - [ ] Hide certain things from posts
+	 - [ ] Link
+	 - [ ] Flair
+	 - [ ] Username
+	 - [ ] Subreddit
+     - [ ] Post number
+	 - [ ] Date, upvotes, comments
    - [ ] Make it configurable
  - [ ] Easier way to implement opening images and links in general.
    - Currently it's a little bit clunky in the sense that you'll have to setup mailcap, instead I'd prefer if it was just configured in the `rtv.cfg`
@@ -12,4 +19,5 @@ This is a doc just to list out what I want to achieve with this fork, or at leas
    - I haven't quite looked into how rtv actually works, what libraries it uses and so on, so I can't quite say what else I'd like to add.
  - [ ] Possible ease of use additions
    - Adding shortcuts to certain things that aren't currently able to get a shortcut and so on... Or adding some more command line options for automation or similar.
+ - [ ] Maybe rename RTV
  - *More may be added later...*
